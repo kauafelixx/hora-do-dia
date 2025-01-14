@@ -5,7 +5,7 @@ function carregar() {
     var imagem = document.getElementById('imagem')
 
     var data= new Date()
-    var hora= 1
+    var hora= data.getHours()
 
     msg.innerHTML = `Agora são ${hora} horas`
 
